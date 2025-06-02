@@ -1,8 +1,22 @@
-
-```table-of-contents
-```
+- [Strong Induction 강한 귀납](#strong-induction-강한-귀납)
+  - [왜 이렇게 증명에 목을 매는가?](#왜-이렇게-증명에-목을-매는가)
+  - [불변량 (invariant)](#불변량-invariant)
+  - [문제](#문제)
+    - [정리](#정리)
+    - [Lemma 1](#lemma-1)
+    - [Lemma 2](#lemma-2)
+    - [Define](#define)
+    - [Lemma 3](#lemma-3)
+    - [Corollary 1 (따름 정리, 그 명제나 정리에서 바로 유도되는 명제)](#corollary-1-따름-정리-그-명제나-정리에서-바로-유도되는-명제)
+    - [Lemma 4](#lemma-4)
+    - [Induction](#induction)
+    - [Invariant](#invariant)
+  - [강한 귀납법](#강한-귀납법)
 
 ---
+
+# Strong Induction 강한 귀납
+
 우리는 증명에 대해 공부했다.
 그래서 훌륭한 증명이란 무엇인가?
 
