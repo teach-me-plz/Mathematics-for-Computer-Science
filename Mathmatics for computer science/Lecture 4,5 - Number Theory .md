@@ -190,7 +190,7 @@ $$a - b = (q1 - q2) * n + (r_1 - r_2)$$
 
 자 이와 같이 모듈러 산술은 일반 산술과 매우 유사한 성질들을 많이 가지고 있다.   
 
-$a \equiv b \pmod{n},$, $c \equiv d \pmod{n}$이면, 다음이 성립한다.   
+$a \equiv b \pmod{n}$, $c \equiv d \pmod{n}$이면, 다음이 성립한다.   
 $$a + c \equiv b + d \pmod{n}$$
 $$a * c \equiv b * d \pmod{n}$$
 
@@ -199,7 +199,7 @@ $$a * c \equiv b * d \pmod{n}$$
 <details markdown="1">
 <summary> Proof </summary>
 
-농담이다 증명은 추가적으로 하지는 않겠다.   
+증명은 추가적으로 하지는 않겠다.   
 대신 예제를 몇개 해보면, 이들이 잘 동작한다는 것 알 수 있다.   
 
 </details>
