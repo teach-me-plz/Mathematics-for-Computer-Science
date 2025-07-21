@@ -14,7 +14,7 @@
       - [Step 6](#step-6)
       - [정답](#정답)
   - [모듈러 산술 (Modular Arithmetic)](#모듈러-산술-modular-arithmetic)
-      - [Lemma \& Proof](#lemma--proof)
+    - [Lemma \& Proof](#lemma--proof)
   - [암호학](#암호학)
     - [Turing's Code v1](#turings-code-v1)
 
@@ -63,6 +63,8 @@ $a | b$는 어떤 정수 $k$에 있어서 $a \cdot k = b$ 일 때 성립한다.
 $a \nmid b$ 라면 어떨까?   
 이 경우에는 몫(Quotient)과 나머지(remainder)가 생긴다.   
 
+---
+
 ### 나눗셈 알고리즘
 
 $n, d$는 정수이고 $d > 0$ 이라고 하자.   
@@ -74,6 +76,8 @@ $$n = qd+r \quad where \quad 0\le r < d$$
 $$quot(n, d) = q, \quad rem(n, d) = r$$
 
 이러한 알고리즘은 수학 전체에서 가장 중요한 알고리즘 중 하나로 이어진다.
+
+---
 
 ### 유클리드 알고리즘
 
@@ -87,6 +91,8 @@ $gcd$를 구하고자 한다면 나머지를 계속 계산해 나가면 된다.
 이렇게 일반적으로 두 정수 $a$, $b$의 최대공약수는 a와 b의 [선형결합](../용어%20정리/선형결합(linear%20combination).md)으로 표현할 수 있다.   
 
 이러한 성질을 [**베주 항등식(Bézout's identity)**](../용어%20정리/베주%20항등식(Bézouts%20identity).md) 이라고 한다.   
+
+---
 
 ## 분해기 (The Pulverizer)
 
@@ -267,7 +273,7 @@ $$29 - 15 = 14 \quad and \quad 7 \mid 14$$
 
 위의 합동을 풀어서 쓰면 다음과같은 Lemma가 나온다.   
 
-#### Lemma & Proof
+### Lemma & Proof
 
 $$a \equiv b \pmod{n} \iff rem(a,n) = rem(b,n)$$
 
@@ -346,6 +352,8 @@ $$0, 1, 2, 3, 4, 5, 6$$
 2000년대 MIT OCW 강의에서 위의 암호학을 재구성한 `Turing's Code`노트가 있으며 우리는 이 내용에 대해 다뤄볼 것이다.   
 
 다음은 그 암호가 작동한 방식이다.   
+
+---
 
 ### Turing's Code v1
 
