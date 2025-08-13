@@ -146,9 +146,14 @@ $$a \equiv rem(a, n)\pmod{n}$$
 
 간단하게 $a \equiv rem(a,3) \pmod{3}$에서의 정수 집합들은 다음과 같이 나눌 수 있다.   
 
-$$\cdots, -6, -3, 0, 3, 6, \cdots \rArr \space rem(a,3) = 0$$
-$$\cdots, -5, -2, 1, 4, 7, \cdots \rArr \space rem(a,3) = 1$$
-$$\cdots, -4, -1, 2, 5, 8, \cdots \rArr \space rem(a,3) = 2$$
+$rem(a,3) = 0$   
+$$\cdots, -6, -3, 0, 3, 6, \cdots$$ 
+
+$rem(a,3) = 1$   
+$$\cdots, -5, -2, 1, 4, 7, \cdots$$
+
+$rem(a,3) = 2$   
+$$\cdots, -4, -1, 2, 5, 8, \cdots$$
 
 <details>
 
