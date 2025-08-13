@@ -45,7 +45,7 @@
 앞으로 나오는 수들을 정수 라고 기본 전제로 깔고 가도록 하겠다!
 
 $$
-\Z \space 를 \space 알아보자!
+Z \space 를 \space 알아보자!
 $$
 
 ---
@@ -146,9 +146,9 @@ $$a \equiv rem(a, n)\pmod{n}$$
 
 간단하게 $a \equiv rem(a,3) \pmod{3}$에서의 정수 집합들은 다음과 같이 나눌 수 있다.   
 
-$$\cdots, -6, -3, 0, 3, 6, \cdots \rarr rem(a,3) = 0$$
-$$\cdots, -5, -2, 1, 4, 7, \cdots \rArr rem(a,3) = 1$$
-$$\cdots, -4, -1, 2, 5, 8, \cdots \rArr rem(a,3) = 2$$
+$$\cdots, -6, -3, 0, 3, 6, \cdots \rArr \space rem(a,3) = 0$$
+$$\cdots, -5, -2, 1, 4, 7, \cdots \rArr \space rem(a,3) = 1$$
+$$\cdots, -4, -1, 2, 5, 8, \cdots \rArr \space rem(a,3) = 2$$
 
 <details>
 
@@ -312,9 +312,7 @@ $= 80$
 ##### 오일러 피 정리
 
 $n = pq$이고 $p,q$가 서로 다른 소수라면
-$$
-\phi(n) = (p - 1)(q - 1)
-$$
+$$\phi(n) = (p - 1)(q - 1)$$
 
 ##### 오일러 피 증명
 
@@ -326,9 +324,7 @@ $1 ~ pq$ 중에서
 
 따라서 서로소가 아닌 수의 개수는 $p + q - 1$이 된다.   
 전체 $pq$개에서 이를 빼면   
-$$
-\phi(n) = pq - (p + q - 1) = (p - 1)(q - 1)
-$$
+$$\phi(n) = pq - (p + q - 1) = (p - 1)(q - 1)$$
 
 ---
 
